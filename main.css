@@ -232,6 +232,16 @@ button.with-icon:hover > span {
   fill: black;
 }
 
+figure {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
 
 
 .c1 { width: 8.33333333333%;}
@@ -306,7 +316,7 @@ button.with-icon:hover > span {
     padding-right: var(--ws-padding-sm) !important;
   }
   .column { width: 50% !important;}
-  .c6, .c7, .c8, .c9, .c10, .c11 {
+  .c5 .c6, .c7, .c8, .c9, .c10, .c11 {
     width: 100% !important;
   }
   .hero-content {
