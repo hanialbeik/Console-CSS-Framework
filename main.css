@@ -151,7 +151,9 @@ section.hero {
   justify-content: center;
 }
 .flex > div {
-  float:left;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .container {
   max-width: var(--ws-maxwidth);
@@ -233,14 +235,14 @@ button.with-icon:hover > span {
 }
 
 figure {
-  display: flex;
-  flex-flow: column;
-  margin: auto;
-  width: 100%;
+  max-height: 320px;
+  overflow: hidden;
 }
 
-img {
+figure > img {
   object-fit: cover;
+  width: 100%;
+  margin-top: -30%;
 }
 
 
@@ -316,7 +318,10 @@ img {
     padding-right: var(--ws-padding-sm) !important;
   }
   .column { width: 50% !important;}
-  .c5 .c6, .c7, .c8, .c9, .c10, .c11 {
+  .c1, .c2, .c3, .c4, .c5, .c6, {
+    width:50% !important;
+  }
+  .c7, .c8, .c9, .c10, .c11 {
     width: 100% !important;
   }
   .hero-content {
@@ -341,6 +346,8 @@ img {
   .column  {
     width: 100% !important;
   }
+  .flex { flex-direction: column;}
+
   .menu-item {
     display:none;
   }
