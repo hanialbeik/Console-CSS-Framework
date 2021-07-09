@@ -1,0 +1,124 @@
+:root {
+  --ws-maxwidth: 1200px;
+  --ws-maxwidth-md: 960px;
+  --ws-maxwidth-sm: 720px;
+  --ws-maxwidth-xs: 580px;
+
+  --ws-padding: 50px;
+  --ws-padding-md: 40px;
+  --ws-padding-sm: 30px;
+  --ws-padding-xs: 20px;
+  
+  --logo-height: 48px;
+  --logo-width: 48px;
+  --nav-padding: 15px;
+  --nav-space: 10px;
+  --nav-margin: 10px;
+  --nav-font-size: 13px;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+  color: rgb(255 255 255 / 34%);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: #121212;
+}
+
+nav {
+  background-color: #00000050
+}
+
+nav a {
+  color: white;
+  border-radius: 10px;
+}
+nav a:hover{
+  box-shadow: inset 0 0 20px #00000045;
+  border-radius: 10px;
+}
+
+.logo {
+  background-image: url(logo.svg);
+}
+
+.hamburger svg {
+  fill: white;
+}
+
+.column {
+  padding: 5px;
+  font-size: 10px;
+}
+
+.hero-content {
+  padding-top: 150px ;
+  padding-bottom: 150px ;
+}
+
+.hero-content h1 {
+  text-shadow: 0 0px 14px #0000009e;
+}
+
+.hero-content h2 {
+  text-shadow: 0 0px 14px #0000009e;
+}
+
+.hero-content p {
+  text-shadow: 0 0px 14px #0000009e;
+}
+
+.home-page-1 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.56)), url(https://picsum.photos/1920/1080);
+  background-size: cover;
+}
+
+.home-page-2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.56)), url(https://picsum.photos/1920/1081);
+  background-size: cover;
+  height: 50vh;
+}
+
+.home-page-3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.56)), url(https://picsum.photos/1920/1082);
+  background-size: cover;
+  height: 50vh;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0px 20px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.card {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 50px
+}
+.quote .content {
+  background-color: #1212127c;
+  border-radius: 15px;
+}
