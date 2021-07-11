@@ -30,6 +30,7 @@ nav {
 .floating {
   position: fixed;
   z-index: 1000000;
+  overflow: visible;
 }
 
 nav ul {
@@ -241,8 +242,9 @@ figure {
 
 figure > img {
   object-fit: cover;
+  object-position: center;
+  height: 100%;
   width: 100%;
-  margin-top: -30%;
 }
 
 
